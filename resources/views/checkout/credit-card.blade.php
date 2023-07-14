@@ -13,7 +13,7 @@
 
 <body>
     @php
-        $stripe_key = 'use to publish key';
+        $stripe_key = 'pk_test_51NTgP2GbU9rgog2IGx1Mfzyed9jgTkzIUI1jr4OrloiYGrfrG69k5NkmcsRbugYLlJIb12zjfZpeo3mKKt4GS2v000cdP7wTAy';
     @endphp
     <div class="container" style="margin-top:10%;margin-bottom:10%">
         <div class="row justify-content-center">
