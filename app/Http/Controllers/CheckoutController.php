@@ -9,7 +9,7 @@ class CheckoutController extends Controller
     public function checkout()
     {
 
-        \Stripe\Stripe::setApiKey('use to secert key');
+        \Stripe\Stripe::setApiKey(env('STRIPE_SECRET'));
 
 
         $amount = 100;
